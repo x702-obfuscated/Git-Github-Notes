@@ -1,0 +1,18 @@
+# This is an example .gitattributes file
+
+
+# Normalize text files to use LF line endings
+* text=auto
+
+# Mark image files as binary
+*.png binary
+*.jpg binary
+
+# Use a custom diff driver for Markdown files
+*.md diff=markdown
+
+# Use a custom merge driver for .lock files
+*.lock merge=lock
+
+# Ensure all JavaScript files use LF line endings
+*.js text eol=lf

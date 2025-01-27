@@ -1,0 +1,21 @@
+
+
+#ignore all .txt files
+
+*.txt
+
+#ignore a single file
+
+file.txt
+
+#ignore a directory and its contents
+
+MyFolder
+OLD/ 
+
+#ignore all .pdf files
+*.pdf
+
+
+
+
